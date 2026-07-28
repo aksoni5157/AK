@@ -175,6 +175,48 @@ sum+=i;
 }*/
 
 
+/*int n,i; // check the number is prime or not
+bool isprime=true;
+cout<<"enter a number =";
+cin>>n;
+for ( i = 2; i*i <= n; i++)
+{
+if (n%i==0)
+{
+isprime=false;
+break;
+}
+}
+if (isprime==true)
+{
+  cout<<"Given number is prime ="<<n<<endl;
+}else
+cout<<"given number is non-prime ="<<n<<endl;*/
+
+int n,m;
+cout<<"enter the no of line required";
+cin>>n;
+cout<<"enter the no of star required";
+cin>>m;
+for (int i= 1; i <=n; i++)
+{
+ // int m;
+ // cout<<"enter the no of star required";
+//cin>>m;
+  for (int j= 1; j <=m; j++)
+  {
+  cout<<"*"<<" ";
+  }
+  cout<<endl;
+}
+
+
+
+
+
+
+
+
 
 }
 
