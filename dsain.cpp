@@ -193,7 +193,7 @@ if (isprime==true)
 }else
 cout<<"given number is non-prime ="<<n<<endl;*/
 
-int n,m;
+/*int n,m;
 cout<<"enter the no of line required";
 cin>>n;
 cout<<"enter the no of star required";
@@ -208,7 +208,7 @@ for (int i= 1; i <=n; i++)
   cout<<"*"<<" ";
   }
   cout<<endl;
-}
+}*/
 
 
 

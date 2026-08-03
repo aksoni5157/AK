@@ -202,9 +202,117 @@ cout<<" marks is"<<i<<"th student is "<<marks[i]<<endl;}
  cin>>n;
  cout<<(n>=0? "positive":"negative"); // ternary statement */
 
-
- 
+// square star pattern :
+/*int a;
+cout<<"enter the number of line";
+cin>>a;
+for ( int i = 1; i <=a; i++){
+    int b=5;
+    for ( int j= 1; j <=b; j++)
+    {
+        cout<<"*"<<" ";
     }
+     cout<<endl;
+}
+return 0;*/
+ 
+// Square pattern 
+/*int n=4;
+
+for (int i = 1; i <=n; i++){
+
+    for (int j = 1; j<=n; j++){
+        cout<<j<<" ";
+         }
+    cout<<endl;
+    }
+return 0;*/
+
+/*int n=4;
+// OR
+for (int i = 0; i <n; i++){
+    char ch='A'; 
+    for (int j = 0; j<n; j++){
+        cout<<ch<<" ";
+         ch=ch+1;
+         }
+    cout<<endl;
+    }
+return 0;*/
+
+
+/*int n=3,num=1;
+for (int i = 0; i <n; i++){
+
+    for (int j = 0; j < n; j++)
+    {
+        cout<<num<<" ";
+        num++;
+    }
+    
+    
+    cout<<endl;
+}
+return 0;*/
+
+/*int n=5;
+char ch='A';
+for (int i = 0; i <n; i++){
+
+    for (int j = 0; j < n; j++)
+    {
+        cout<<ch<<" ";
+        ch++;
+    }
+    
+    
+    cout<<endl;
+}
+return 0;*/
+
+// right triangle pattern
+/*int n=4;
+for (int i = 0; i < n; i++){
+    
+    for (int j = 0; j <i+1; j++)
+    {
+        cout<<"*"<<" ";
+    }
+    cout<<endl;
+    
+}
+return 0;*/
+//   OR
+/*int n=4;
+for (int i = 0; i < n; i++){
+    
+    for (int j = 0; j <i+1; j++)
+    {
+        cout<<i+1<<" ";
+    }
+    cout<<endl;
+    
+}
+return 0;*/
+
+// OR
+/*int n=5;
+
+    for (int i = 0; i < n; i++){
+        
+        for (int j = 0; j < i+1; j++){
+    
+        // char ch='A';
+         cout<<char('A'+i)<<" ";
+        
+
+        }
+        cout<<endl;
+
+    }
+
+return 0;*/
+}
 
 
 
